@@ -306,7 +306,7 @@ tmpl_error_message_item = '''
 usageText = '''
 
 Usage:
-    python3 gtest2html.py <GTEST_JSON_REPORT_FILE> <OUTPUT_FILE>
+    python3 gtest_json2html.py <GTEST_JSON_REPORT_FILE> <OUTPUT_FILE>
 
     Arguments:
         GTEST_JSON_REPORT_FILE: googletest json report.
