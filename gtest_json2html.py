@@ -300,7 +300,7 @@ tmpl_error_message_listing = '''
 #   error_message : The error message
 #   error_type    : Error type. Leave empty if type is empty.
 tmpl_error_message_item = '''
-<li>{error_message} {error_type}</li>
+<li><pre>{error_message} {error_type}</pre></li>
 '''
 
 usageText = '''
