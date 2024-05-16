@@ -378,7 +378,7 @@ def get_str(node, lab, default):
 
 
 def generate_nav_bar(testsuites_node):
-    test_project_name = get_str(testsuites_node, 'project', 'undefined')
+    test_project_name = get_str(testsuites_node, 'project', 'Project')
 
     # Generate HTML for the navigation bar.
     return tmpl_test_navbar.format(
