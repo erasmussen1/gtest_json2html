@@ -407,7 +407,7 @@ def generate_total_test_summary(testsuites_node):
 
     # Generate HTML for the test summary.
     total_test_result = tmpl_total_test_result.format(
-        report_file_path=report_file,
+        report_file_path=report_filename,
         testsuite_name=testsuite_name,
         total_abs_test_count=total_abs_test_count,
         total_abs_success_count=total_abs_success_count,
@@ -627,6 +627,7 @@ if __name__ == '__main__':
     arg2 = sys.argv[2]
 
     source_directory = os.path.dirname(os.path.realpath(__file__))
+    report_filename = arg1
     report_file = os.path.realpath(arg1)
     destination_file = os.path.realpath(arg2)
     destination_directory = os.path.dirname(arg2)
