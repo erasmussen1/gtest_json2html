@@ -5,9 +5,7 @@ This is handy Python3 script to generate a html file(s) from googletest json out
 This script assumes the gtest json output is from gtest version 1.8.x or later
 
 ## Platforms
-* Linux, FreeBSD, OpenBSD, Solaris, AIX
-* Windows
-* macOS
+* Linux, Windows, macOS
 
 ## Usage
 
